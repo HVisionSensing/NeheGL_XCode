@@ -2,17 +2,34 @@
 //  main.cpp
 //  NeheGL
 //
-//  Created by Andong Li on 8/15/13.
+//  Created by Andong Li on 8/13/13.
 //  Copyright (c) 2013 Andong Li. All rights reserved.
 //
 
+#include <OpenGL/OpenGL.h>
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
+#include <GLUT/glut.h>
 #include <iostream>
+#include <stdlib.h>
+#include <stdio.h>
 
-int main(int argc, const char * argv[])
+
+void display()
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    glClear(GL_COLOR_BUFFER_BIT);
+    glBegin(GL_POLYGON);
+    glVertex2f(-0.5, -0.5);
+    glVertex2f(-0.5, 0.5);
+    glVertex2f(0.5, 0.5);
+    glVertex2f(0.5, -0.5);
+    glEnd();
+    glFlush();
 }
-
+int main(int argc, char * argv[])
+{
+    glutInit(&argc, argv);
+    glutCreateWindow("Xcode Glut Demo");
+    glutDisplayFunc(display);
+    glutMainLoop();
+}
