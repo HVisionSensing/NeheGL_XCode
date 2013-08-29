@@ -34,6 +34,7 @@
 		9BF9A76117BCBCF900396775 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		9BFD960C17CF16120036FDAB /* nehe02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe02.h; sourceTree = "<group>"; };
 		9BFD960E17CF1DAE0036FDAB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9BFD961117CF45270036FDAB /* headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headers.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 				9B9E6FFD17BDEF9C0028FBE2 /* nehe01.h */,
 				9BFD960C17CF16120036FDAB /* nehe02.h */,
 				9BFD960E17CF1DAE0036FDAB /* main.cpp */,
+				9BFD961117CF45270036FDAB /* headers.h */,
 			);
 			path = NeheGL;
 			sourceTree = "<group>";

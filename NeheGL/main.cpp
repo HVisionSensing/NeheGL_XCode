@@ -7,8 +7,7 @@
 // entry function of this project
 //
 
-#include "nehe01.h"
-#include "nehe02.h"
+#include "headers.h"
 
 //just change here to change renderer class and window's title
 #define RENDERER NEHE02

@@ -1,5 +1,5 @@
 //
-//  nehe01.cpp
+//  nehe01.h
 //  NeheGL
 //
 //  Created by Andong Li on 8/15/12.
