@@ -21,15 +21,9 @@ using namespace std;
 
 class NEHE02{
 public:
-	const int WINDOW_WIDTH = 640;
-	const int WINDOW_HEIGHT = 480;
-	const int WINDOW_POSITION_X = 100;
-	const int WINDOW_POSITION_Y = 100;
-	const char* WINDOW_TITLE = "Nehe02";
-	
-	GLvoid ReSizeGLScene(GLsizei width, GLsizei height);
-	GLvoid InitGL();
-	GLvoid DrawGLScene();
+	static GLvoid ReSizeGLScene(GLsizei width, GLsizei height);
+	static GLvoid InitGL();
+	static GLvoid DrawGLScene();
 };
 
 GLvoid NEHE02::ReSizeGLScene(GLsizei width, GLsizei height){
