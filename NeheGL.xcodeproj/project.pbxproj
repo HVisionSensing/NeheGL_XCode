@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B81BFF417BE181900232301 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9A75F17BCBCF400396775 /* GLUT.framework */; };
-		9B9E6FFF17BDEF9C0028FBE2 /* nehe01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E6FFD17BDEF9C0028FBE2 /* nehe01.cpp */; };
 		9BF9A75917BCBCDD00396775 /* NeheGL.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9BF9A75817BCBCDD00396775 /* NeheGL.1 */; };
 		9BF9A76217BCBCF900396775 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9A76117BCBCF900396775 /* OpenGL.framework */; };
+		9BFD961017CF1DAE0036FDAB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD960E17CF1DAE0036FDAB /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,11 +27,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9B9E6FFD17BDEF9C0028FBE2 /* nehe01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe01.cpp; sourceTree = "<group>"; };
+		9B9E6FFD17BDEF9C0028FBE2 /* nehe01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe01.h; sourceTree = "<group>"; };
 		9BF9A75317BCBCDD00396775 /* NeheGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NeheGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF9A75817BCBCDD00396775 /* NeheGL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NeheGL.1; sourceTree = "<group>"; };
 		9BF9A75F17BCBCF400396775 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		9BF9A76117BCBCF900396775 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		9BFD960C17CF16120036FDAB /* nehe02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe02.h; sourceTree = "<group>"; };
+		9BFD960E17CF1DAE0036FDAB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				9BF9A75817BCBCDD00396775 /* NeheGL.1 */,
-				9B9E6FFD17BDEF9C0028FBE2 /* nehe01.cpp */,
+				9B9E6FFD17BDEF9C0028FBE2 /* nehe01.h */,
+				9BFD960C17CF16120036FDAB /* nehe02.h */,
+				9BFD960E17CF1DAE0036FDAB /* main.cpp */,
 			);
 			path = NeheGL;
 			sourceTree = "<group>";
@@ -125,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9E6FFF17BDEF9C0028FBE2 /* nehe01.cpp in Sources */,
+				9BFD961017CF1DAE0036FDAB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

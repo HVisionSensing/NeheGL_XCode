@@ -7,6 +7,9 @@
 //  implement NeHe tutorials lesson 1
 //
 
+#ifndef NEHE01_H
+#define NEHE01_H
+
 #include <OpenGL/gl.h>
 #include <OpenGL/glu.h>
 #include <GLUT/glut.h>
@@ -16,8 +19,20 @@
 #include <stdio.h>
 using namespace std;
 
+class NEHE01{
+public:
+	const int WINDOW_WIDTH = 640;
+	const int WINDOW_HEIGHT = 480;
+	const int WINDOW_POSITION_X = 100;
+	const int WINDOW_POSITION_Y = 100;
+	const char* WINDOW_TITLE = "Nehe01";
+	
+	GLvoid ReSizeGLScene(GLsizei width, GLsizei height);
+	GLvoid InitGL();
+	GLvoid DrawGLScene();
+};
 
-GLvoid ReSizeGLScene(GLsizei width, GLsizei height){
+GLvoid NEHE01::ReSizeGLScene(GLsizei width, GLsizei height){
 	
 	// Prevent A Divide By Zero By
     if(height==0)
@@ -38,7 +53,7 @@ GLvoid ReSizeGLScene(GLsizei width, GLsizei height){
     glLoadIdentity();
 }
 
-GLvoid InitGL(){
+GLvoid NEHE01::InitGL(){
 	
 	// Enables Smooth Shading
 	glShadeModel(GL_SMOOTH);
@@ -55,31 +70,13 @@ GLvoid InitGL(){
 	
 }
 
-GLvoid DrawGLScene(){
+GLvoid NEHE01::DrawGLScene(){
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glLoadIdentity();
-	glFlush();
+	glutSwapBuffers();
 }
 
 
-int main(int argc,  char * argv[])
 
-{
-	
-    glutInit(&argc, argv);
-    glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowSize (640, 480);
-    glutInitWindowPosition (100, 100);
-    glutCreateWindow ("NeHe01");
-	
-    InitGL();
-	
-    glutDisplayFunc(DrawGLScene);
-	glutReshapeFunc(ReSizeGLScene);
-	
-    glutMainLoop();
-	
-    return 0;
-	
-}
 
+#endif//NEHE01_H
