@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		9B56A3E517D07F6F0038CFA6 /* nehe03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nehe03.h; sourceTree = "<group>"; };
+		9B56A3E617D084FB0038CFA6 /* nehe04.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nehe04.h; sourceTree = "<group>"; };
 		9B9E6FFD17BDEF9C0028FBE2 /* nehe01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe01.h; sourceTree = "<group>"; };
 		9BF9A75317BCBCDD00396775 /* NeheGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NeheGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF9A75817BCBCDD00396775 /* NeheGL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NeheGL.1; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 				9BFD960E17CF1DAE0036FDAB /* main.cpp */,
 				9BFD961117CF45270036FDAB /* headers.h */,
 				9B56A3E517D07F6F0038CFA6 /* nehe03.h */,
+				9B56A3E617D084FB0038CFA6 /* nehe04.h */,
 			);
 			path = NeheGL;
 			sourceTree = "<group>";
