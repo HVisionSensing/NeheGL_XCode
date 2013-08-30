@@ -10,8 +10,8 @@
 #include "headers.h"
 
 //just change here to change renderer class and window's title
-#define RENDERER NEHE02
-#define TITLE "NeHe02"
+#define RENDERER NEHE03
+#define TITLE "NeHe03"
 
 int main(int argc,  char * argv[]){
 	
