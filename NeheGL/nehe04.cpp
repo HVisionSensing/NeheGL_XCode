@@ -50,9 +50,10 @@ GLvoid NEHE04::InitGL(){
 }
 
 GLvoid NEHE04::DrawGLScene(){
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    glLoadIdentity();
 	
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	
+    glLoadIdentity();
 	glTranslatef(-1.5f,0.0f,-6.0f);
 	glRotatef(rtri,0.0f,1.0f,0.0f);	// Rotate The Triangle On The Y axis
 	glBegin(GL_TRIANGLES);	// Drawing Using Triangles
@@ -75,10 +76,16 @@ GLvoid NEHE04::DrawGLScene(){
 	glVertex3f(-1.0f,-1.0f, 0.0f);	// Bottom Left
     glEnd();
 	
-	glutSwapBuffers();
-	
 	rtri += 0.2f;
 	rquad -= 0.15f;
+	
+	glLoadIdentity ();
+	glTranslatef(0.0f,0.0f,-1.0f);
+	glColor3f(0.8f,0.8f,0.8f);//set text color
+	
+	TextUtils::drawText(-0.54f,-0.4f, GLUT_BITMAP_HELVETICA_12, "FPS: ");
+	
+	glutSwapBuffers();
 	
 	glutPostRedisplay();
 }

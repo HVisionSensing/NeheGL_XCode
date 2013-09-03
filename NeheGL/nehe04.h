@@ -13,6 +13,8 @@
 #include <OpenGL/glu.h>
 #include <GLUT/glut.h>
 
+#include "utils.h"
+
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>

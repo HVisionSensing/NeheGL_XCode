@@ -48,8 +48,8 @@ GLvoid NEHE02::InitGL(){
 
 GLvoid NEHE02::DrawGLScene(){
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    glLoadIdentity();
 	
+    glLoadIdentity();
 	glTranslatef(-1.5f,0.0f,-6.0f);
 	glBegin(GL_TRIANGLES);	// Drawing Using Triangles
     glVertex3f( 0.0f, 1.0f, 0.0f);	// Top
