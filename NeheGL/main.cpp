@@ -25,7 +25,7 @@ int main(int argc,  char * argv[]){
 	
     glutDisplayFunc(RENDERER::DrawGLScene);
 	glutReshapeFunc(RENDERER::ReSizeGLScene);
-	
+	glutTimerFunc(0, RENDERER::UpdateScene, 0);
     glutMainLoop();
 	
     return EXIT_SUCCESS;

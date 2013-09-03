@@ -10,6 +10,7 @@
 
 GLfloat NEHE04::rtri = 0.0f;
 GLfloat NEHE04::rquad = 0.0f;
+GLfloat NEHE04::sleepTime = 0.0f;
 
 GLvoid NEHE04::ReSizeGLScene(GLsizei width, GLsizei height){
 	
@@ -87,5 +88,22 @@ GLvoid NEHE04::DrawGLScene(){
 	
 	glutSwapBuffers();
 	
-	glutPostRedisplay();
 }
+
+/*
+ This function is used to limit FPS for smooth animation
+ */
+GLvoid NEHE04::UpdateScene(int flag){
+	clock_t startTime = clock();
+    glutPostRedisplay();
+    clock_t endTime = clock();
+	
+	//compute sleep time in millesecond
+    float sleepTime =  ((CLOCKS_PER_SEC/MAX_FPS) - (endTime-startTime))/1000.0;
+    sleepTime = floor(sleepTime+0.5);
+    sleepTime < 0 ? sleepTime = 0 : NULL;
+		
+    glutTimerFunc(sleepTime, UpdateScene, flag);
+	
+}
+
