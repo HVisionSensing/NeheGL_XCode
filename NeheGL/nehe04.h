@@ -14,6 +14,7 @@
 #include <GLUT/glut.h>
 
 #include "utils.h"
+#include "FPSTimer.h"
 
 #include <iostream>
 #include <stdlib.h>

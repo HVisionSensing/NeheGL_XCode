@@ -11,9 +11,9 @@
 		9B06292617D2FCC6006F840F /* nehe02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B06292517D2FCC6006F840F /* nehe02.cpp */; };
 		9B06292817D2FD50006F840F /* nehe03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B06292717D2FD50006F840F /* nehe03.cpp */; };
 		9B06292A17D2FD6F006F840F /* nehe04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B06292917D2FD6F006F840F /* nehe04.cpp */; };
-		9B06292D17D2FE62006F840F /* FPSAnimator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B06292B17D2FE62006F840F /* FPSAnimator.cpp */; };
 		9B06293017D2FF48006F840F /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B06292E17D2FF48006F840F /* utils.cpp */; };
 		9B81BFF417BE181900232301 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9A75F17BCBCF400396775 /* GLUT.framework */; };
+		9BF3DB6417D6A734008A5620 /* FPSTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3DB6217D6A734008A5620 /* FPSTimer.cpp */; };
 		9BF9A75917BCBCDD00396775 /* NeheGL.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9BF9A75817BCBCDD00396775 /* NeheGL.1 */; };
 		9BF9A76217BCBCF900396775 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9A76117BCBCF900396775 /* OpenGL.framework */; };
 		9BFD961017CF1DAE0036FDAB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD960E17CF1DAE0036FDAB /* main.cpp */; };
@@ -37,13 +37,13 @@
 		9B06292517D2FCC6006F840F /* nehe02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe02.cpp; sourceTree = "<group>"; };
 		9B06292717D2FD50006F840F /* nehe03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe03.cpp; sourceTree = "<group>"; };
 		9B06292917D2FD6F006F840F /* nehe04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe04.cpp; sourceTree = "<group>"; };
-		9B06292B17D2FE62006F840F /* FPSAnimator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FPSAnimator.cpp; sourceTree = "<group>"; };
-		9B06292C17D2FE62006F840F /* FPSAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSAnimator.h; sourceTree = "<group>"; };
 		9B06292E17D2FF48006F840F /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
 		9B06292F17D2FF48006F840F /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		9B56A3E517D07F6F0038CFA6 /* nehe03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nehe03.h; sourceTree = "<group>"; };
 		9B56A3E617D084FB0038CFA6 /* nehe04.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nehe04.h; sourceTree = "<group>"; };
 		9B9E6FFD17BDEF9C0028FBE2 /* nehe01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe01.h; sourceTree = "<group>"; };
+		9BF3DB6217D6A734008A5620 /* FPSTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FPSTimer.cpp; sourceTree = "<group>"; };
+		9BF3DB6317D6A734008A5620 /* FPSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSTimer.h; sourceTree = "<group>"; };
 		9BF9A75317BCBCDD00396775 /* NeheGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NeheGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF9A75817BCBCDD00396775 /* NeheGL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NeheGL.1; sourceTree = "<group>"; };
 		9BF9A75F17BCBCF400396775 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
@@ -98,10 +98,10 @@
 				9B06292517D2FCC6006F840F /* nehe02.cpp */,
 				9B06292717D2FD50006F840F /* nehe03.cpp */,
 				9B06292917D2FD6F006F840F /* nehe04.cpp */,
-				9B06292B17D2FE62006F840F /* FPSAnimator.cpp */,
-				9B06292C17D2FE62006F840F /* FPSAnimator.h */,
 				9B06292E17D2FF48006F840F /* utils.cpp */,
 				9B06292F17D2FF48006F840F /* utils.h */,
+				9BF3DB6217D6A734008A5620 /* FPSTimer.cpp */,
+				9BF3DB6317D6A734008A5620 /* FPSTimer.h */,
 			);
 			path = NeheGL;
 			sourceTree = "<group>";
@@ -162,8 +162,8 @@
 				9B06292617D2FCC6006F840F /* nehe02.cpp in Sources */,
 				9B06292817D2FD50006F840F /* nehe03.cpp in Sources */,
 				9B06292A17D2FD6F006F840F /* nehe04.cpp in Sources */,
-				9B06292D17D2FE62006F840F /* FPSAnimator.cpp in Sources */,
 				9B06293017D2FF48006F840F /* utils.cpp in Sources */,
+				9BF3DB6417D6A734008A5620 /* FPSTimer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
