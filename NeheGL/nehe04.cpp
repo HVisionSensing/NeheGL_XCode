@@ -106,7 +106,7 @@ GLvoid NEHE04::UpdateScene(int flag){
     clock_t endTime = clock();
 	
 	//compute sleep time in millesecond
-    float sleepTime =  ((CLOCKS_PER_SEC/EXPECT_FPS) - (endTime-startTime))/1000.0;
+    float sleepTime =  ((CLOCKS_PER_SEC/EXPECT_FPS)-(endTime-startTime))/1000.0;
     //sleepTime = floor(sleepTime+0.5);
     sleepTime < 0 ? sleepTime = 0 : NULL;
 		

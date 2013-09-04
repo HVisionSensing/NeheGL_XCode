@@ -14,5 +14,6 @@
 #include "nehe02.h"
 #include "nehe03.h"
 #include "nehe04.h"
+#include "nehe05.h"
 
 #endif

@@ -10,13 +10,13 @@
 #include "headers.h"
 
 //just change here to change renderer class and window's title
-#define RENDERER NEHE04
-#define TITLE "NeHe04"
+#define RENDERER NEHE05
+#define TITLE "NeHe05"
 
 int main(int argc,  char * argv[]){
 	
     glutInit(&argc, argv);
-    glutInitDisplayMode (GLUT_DOUBLE | GLUT_RGBA);
+    glutInitDisplayMode (GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH);
     glutInitWindowSize (640, 480);
     glutInitWindowPosition (100,100);
     glutCreateWindow (TITLE);
