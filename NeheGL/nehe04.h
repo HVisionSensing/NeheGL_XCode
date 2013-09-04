@@ -14,7 +14,6 @@
 #include <GLUT/glut.h>
 
 #include "utils.h"
-#include "FPSTimer.h"
 
 #include <iostream>
 #include <stdlib.h>
@@ -32,8 +31,17 @@ public:
 	
 	static GLfloat rtri;	// Rotate angle For The Triangle
 	static GLfloat rquad;	// Rotate angle For The Quad
-	const static int MAX_FPS = 60;	//max FPS can reach during rendering
+	const static int EXPECT_FPS = 60;	// expect FPS during rendering
+	const static int FPS_UPDATE_CAP = 100; // time period for updating FPS
+	
+private:
 	static GLfloat sleepTime;	//delay time for limiting FPS
+	static void computeFPS();
+	static int frameCounter;
+	static int currentTime;
+	static int lastTime;
+	static char FPSstr[15];
+
 };
 
 #endif

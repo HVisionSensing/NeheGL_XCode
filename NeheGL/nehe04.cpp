@@ -12,6 +12,11 @@ GLfloat NEHE04::rtri = 0.0f;
 GLfloat NEHE04::rquad = 0.0f;
 GLfloat NEHE04::sleepTime = 0.0f;
 
+int NEHE04::frameCounter = 0;
+int NEHE04::currentTime = 0;
+int NEHE04::lastTime = 0;
+char NEHE04::FPSstr[15]  = "Calculating...";
+
 GLvoid NEHE04::ReSizeGLScene(GLsizei width, GLsizei height){
 	
 	// Prevent A Divide By Zero By
@@ -84,7 +89,8 @@ GLvoid NEHE04::DrawGLScene(){
 	glTranslatef(0.0f,0.0f,-1.0f);
 	glColor3f(0.8f,0.8f,0.8f);//set text color
 	
-	TextUtils::drawText(-0.54f,-0.4f, GLUT_BITMAP_HELVETICA_12, "FPS: ");
+	computeFPS();
+	TextUtils::drawText(-0.54f,-0.4f, GLUT_BITMAP_HELVETICA_12, FPSstr);
 	
 	glutSwapBuffers();
 	
@@ -99,11 +105,21 @@ GLvoid NEHE04::UpdateScene(int flag){
     clock_t endTime = clock();
 	
 	//compute sleep time in millesecond
-    float sleepTime =  ((CLOCKS_PER_SEC/MAX_FPS) - (endTime-startTime))/1000.0;
+    float sleepTime =  ((CLOCKS_PER_SEC/EXPECT_FPS) - (endTime-startTime))/1000.0;
     sleepTime = floor(sleepTime+0.5);
     sleepTime < 0 ? sleepTime = 0 : NULL;
 		
     glutTimerFunc(sleepTime, UpdateScene, flag);
 	
+}
+
+void NEHE04::computeFPS(){
+	frameCounter++;
+	currentTime=glutGet(GLUT_ELAPSED_TIME);
+	if (currentTime - lastTime > FPS_UPDATE_CAP) {
+		sprintf(FPSstr,"FPS: %4.2f",frameCounter*1000.0/(currentTime-lastTime));
+		lastTime = currentTime;
+		frameCounter = 0;
+	}
 }
 

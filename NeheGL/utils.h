@@ -4,6 +4,8 @@
 //
 //  Created by Andong Li on 8/31/13.
 //  Copyright (c) 2013 Andong Li. All rights reserved.
+//	Compute accurate FPS by averaging one frame processing
+//	time of a certina amout
 //
 
 #ifndef __NeheGL__utils__
