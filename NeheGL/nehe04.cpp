@@ -100,13 +100,14 @@ GLvoid NEHE04::DrawGLScene(){
  This function is used to limit FPS for smooth animation
  */
 GLvoid NEHE04::UpdateScene(int flag){
+	
 	clock_t startTime = clock();
     glutPostRedisplay();
     clock_t endTime = clock();
 	
 	//compute sleep time in millesecond
     float sleepTime =  ((CLOCKS_PER_SEC/EXPECT_FPS) - (endTime-startTime))/1000.0;
-    sleepTime = floor(sleepTime+0.5);
+    //sleepTime = floor(sleepTime+0.5);
     sleepTime < 0 ? sleepTime = 0 : NULL;
 		
     glutTimerFunc(sleepTime, UpdateScene, flag);
