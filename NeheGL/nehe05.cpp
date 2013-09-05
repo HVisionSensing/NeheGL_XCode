@@ -10,8 +10,8 @@
 
 GLfloat NEHE05::rtri = 0.0f;
 GLfloat NEHE05::rquad = 0.0f;
-GLfloat NEHE05::sleepTime = 0.0f;
 
+GLfloat NEHE05::sleepTime = 0.0f;
 int NEHE05::frameCounter = 0;
 int NEHE05::currentTime = 0;
 int NEHE05::lastTime = 0;
@@ -140,9 +140,6 @@ GLvoid NEHE05::DrawGLScene(){
 	 
     glEnd();
 	
-	rtri += 0.2f;
-	rquad -= 0.15f;
-	
 	glLoadIdentity ();
 	glTranslatef(0.0f,0.0f,-1.0f);
 	glColor3f(0.8f,0.8f,0.8f);//set text color
@@ -152,6 +149,8 @@ GLvoid NEHE05::DrawGLScene(){
 	 
 	glutSwapBuffers();
 	
+	rtri += 0.2f;
+	rquad -= 0.15f;
 }
 
 /*

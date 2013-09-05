@@ -82,9 +82,6 @@ GLvoid NEHE04::DrawGLScene(){
 	glVertex3f(-1.0f,-1.0f, 0.0f);	// Bottom Left
     glEnd();
 	
-	rtri += 0.2f;
-	rquad -= 0.15f;
-	
 	glLoadIdentity ();
 	glTranslatef(0.0f,0.0f,-1.0f);
 	glColor3f(0.8f,0.8f,0.8f);//set text color
@@ -93,6 +90,9 @@ GLvoid NEHE04::DrawGLScene(){
 	TextUtils::drawText(-0.54f,-0.4f, GLUT_BITMAP_HELVETICA_12, FPSstr);
 	
 	glutSwapBuffers();
+	
+	rtri += 0.2f;
+	rquad -= 0.15f;
 	
 }
 
