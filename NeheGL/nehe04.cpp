@@ -87,7 +87,7 @@ GLvoid NEHE04::DrawGLScene(){
 	glColor3f(0.8f,0.8f,0.8f);//set text color
 	
 	computeFPS();
-	TextUtils::drawText(-0.54f,-0.4f, GLUT_BITMAP_HELVETICA_12, FPSstr);
+	Utils::drawText(-0.54f,-0.4f, GLUT_BITMAP_HELVETICA_12, FPSstr);
 	
 	glutSwapBuffers();
 	

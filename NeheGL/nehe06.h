@@ -38,7 +38,7 @@ public:
 private:
 	static GLfloat sleepTime;	//delay time for limiting FPS
 	static void computeFPS();
-	static bool LoadGLTextures();
+	static bool LoadGLTextures(const char* dir);
 	static int frameCounter;
 	static int currentTime;
 	static int lastTime;

@@ -40,12 +40,12 @@ GLvoid NEHE06::ReSizeGLScene(GLsizei width, GLsizei height){
     glLoadIdentity();
 }
 
-bool NEHE06::LoadGLTextures(){
+bool NEHE06::LoadGLTextures(const char* dir){
 	
 	/* load an image file directly as a new OpenGL texture */
     texture[0] = SOIL_load_OGL_texture
 	(
-	 "/Users/Lee/Desktop/NeheGL/NeheGL/img/NeHe.png",
+	 Utils::getAbsoluteDir(dir),
 	 SOIL_LOAD_AUTO,
 	 SOIL_CREATE_NEW_ID,
 	 SOIL_FLAG_INVERT_Y
@@ -65,7 +65,8 @@ bool NEHE06::LoadGLTextures(){
 
 GLvoid NEHE06::InitGL(){
 	
-	if(!LoadGLTextures()){
+	//give the relative directory of image under current project folder
+	if(!LoadGLTextures("NeheGL/img/NeHe.png")){
         cout<<"Fail to load textures"<<endl;
     }
 	
@@ -139,7 +140,7 @@ GLvoid NEHE06::DrawGLScene(){
 	glColor3f(0.8f,0.8f,0.8f);//set text color
 	
 	computeFPS();
-	TextUtils::drawText(-0.54f,-0.4f, GLUT_BITMAP_HELVETICA_12, FPSstr);
+	Utils::drawText(-0.54f,-0.4f, GLUT_BITMAP_HELVETICA_12, FPSstr);
 	
 	glEnable(GL_TEXTURE_2D);
 	

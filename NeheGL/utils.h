@@ -12,14 +12,19 @@
 #define __NeheGL__utils__
 
 #include <iostream>
+#include <stdio.h>
 #include <OpenGL/gl.h>
 #include <OpenGL/glu.h>
 #include <GLUT/glut.h>
+#include <CoreFoundation/CoreFoundation.h>
 using namespace std;
 
-class TextUtils{
+class Utils{
 public:
+	//draw bitmap text on screen with given location
 	static void drawText(float x, float y, void* font, const char* str);
+	//translate input relative directory into absolute directory
+	static char* getAbsoluteDir(const char* relativeDir);
 };
 
 #endif /* defined(__NeheGL__utils__) */
