@@ -8,6 +8,8 @@
 
 #include "nehe04.h"
 
+const char* NEHE04::TITLE = "NEHE04";
+
 GLfloat NEHE04::rtri = 0.0f;
 GLfloat NEHE04::rquad = 0.0f;
 GLfloat NEHE04::sleepTime = 0.0f;

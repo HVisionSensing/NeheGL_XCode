@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B2D5FFB17D9319F00C2577F /* nehe07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D5FF917D9319F00C2577F /* nehe07.cpp */; };
 		9B38EF7517D8004D008602CE /* nehe01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B38EF6717D8004D008602CE /* nehe01.cpp */; };
 		9B38EF7617D8004D008602CE /* nehe02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B38EF6917D8004D008602CE /* nehe02.cpp */; };
 		9B38EF7717D8004D008602CE /* nehe03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B38EF6B17D8004D008602CE /* nehe03.cpp */; };
@@ -36,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B2D5FF917D9319F00C2577F /* nehe07.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe07.cpp; sourceTree = "<group>"; };
+		9B2D5FFA17D9319F00C2577F /* nehe07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe07.h; sourceTree = "<group>"; };
 		9B38EF6717D8004D008602CE /* nehe01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe01.cpp; sourceTree = "<group>"; };
 		9B38EF6817D8004D008602CE /* nehe01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe01.h; sourceTree = "<group>"; };
 		9B38EF6917D8004D008602CE /* nehe02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe02.cpp; sourceTree = "<group>"; };
@@ -130,13 +133,15 @@
 			children = (
 				9B38EF8317D86037008602CE /* img */,
 				9B38EF7E17D85E4A008602CE /* lib */,
-				9B38EF7F17D85E67008602CE /* utils */,
-				9B38EF7C17D8006C008602CE /* nehe01-05 */,
-				9B38EF7117D8004D008602CE /* nehe06.cpp */,
-				9B38EF7217D8004D008602CE /* nehe06.h */,
 				9BF9A75817BCBCDD00396775 /* NeheGL.1 */,
 				9BFD960E17CF1DAE0036FDAB /* main.cpp */,
+				9B38EF7117D8004D008602CE /* nehe06.cpp */,
+				9B2D5FF917D9319F00C2577F /* nehe07.cpp */,
 				9BFD961117CF45270036FDAB /* headers.h */,
+				9B38EF7217D8004D008602CE /* nehe06.h */,
+				9B2D5FFA17D9319F00C2577F /* nehe07.h */,
+				9B38EF7C17D8006C008602CE /* nehe01-05 */,
+				9B38EF7F17D85E67008602CE /* utils */,
 			);
 			path = NeheGL;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 				9B38EF7917D8004D008602CE /* nehe05.cpp in Sources */,
 				9B38EF7A17D8004D008602CE /* nehe06.cpp in Sources */,
 				9B38EF7B17D8004D008602CE /* utils.cpp in Sources */,
+				9B2D5FFB17D9319F00C2577F /* nehe07.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

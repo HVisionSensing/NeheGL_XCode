@@ -24,6 +24,9 @@ using namespace std;
 
 class NEHE04{
 public:
+	
+	static const char* TITLE;
+	
 	static GLvoid ReSizeGLScene(GLsizei width, GLsizei height);
 	static GLvoid InitGL();
 	static GLvoid DrawGLScene();

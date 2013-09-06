@@ -8,6 +8,8 @@
 
 #include "nehe02.h"
 
+const char* NEHE02::TITLE = "NEHE02";
+
 GLvoid NEHE02::ReSizeGLScene(GLsizei width, GLsizei height){
 	
 	// Prevent A Divide By Zero By

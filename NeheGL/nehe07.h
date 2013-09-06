@@ -1,16 +1,13 @@
 //
-//  nehe06.h
+//  nehe07.h
 //  NeheGL
 //
-//  Created by Andong Li on 9/4/13.
+//  Created by Andong Li on 9/5/13.
 //  Copyright (c) 2013 Andong Li. All rights reserved.
-//	Implement Nehe lession 6
-//	Download SOIL library from:
-//	http://faculty.ycp.edu/~dbabcock/PastCourses/cs370/resources.html
 //
 
-#ifndef __NeheGL__nehe06__
-#define __NeheGL__nehe06__
+#ifndef __NeheGL__nehe07__
+#define __NeheGL__nehe07__
 
 #include <OpenGL/gl.h>
 #include <OpenGL/glu.h>
@@ -25,12 +22,17 @@
 #include <cmath>
 #include <ctime>
 
-class NEHE06{
+class NEHE07{
 public:
+	
 	static GLvoid ReSizeGLScene(GLsizei width, GLsizei height);
 	static GLvoid InitGL();
 	static GLvoid DrawGLScene();
 	static GLvoid UpdateScene(int flag);
+	static GLvoid KeyboardFuction(unsigned char key, int x, int y);
+	static GLvoid KeyboardUpFuction(unsigned char key, int x, int y);
+	static GLvoid KeySpecialFuction(int key, int x, int y);
+	static GLvoid KeySpecialUpFuction(int key, int x, int y);
 	
 	static const char* TITLE;
 	const static int EXPECT_FPS = 60;	// expect FPS during rendering
@@ -47,10 +49,25 @@ private:
 	
 	static GLfloat xrot;	// X Rotation
 	static GLfloat yrot;	// Y Rotation
-	static GLfloat zrot;	// Z Rotation
-	static GLuint texture[1];	// Storage For One Texture
+	static GLfloat xspeed;	// X Rotation Speed
+	static GLfloat yspeed;	// Y Rotation Speed
+	static GLfloat z;	//depth into the screen
+	static GLuint texture[3];	// Storage For Three Texture
+	static GLuint  filter;	// Which Filter To Use
+	
+	static bool light;
+	static bool lp;
+	static bool fp;
+	
+	static GLfloat LightAmbient[];	// Ambient Light Values
+	static GLfloat LightDiffuse[];	// Diffuse Light Values
+	static GLfloat LightPosition[];	// Light Position
+	
+	static bool keys[256];
+	static bool specialKeys[256];
 	
 };
 
 
-#endif /* defined(__NeheGL__nehe06__) */
+
+#endif /* defined(__NeheGL__nehe07__) */

@@ -35,13 +35,10 @@ char* Utils::getAbsoluteDir(const char *relativeDir){
         cout<<"Fail to get current build directory!"<<endl;
     }
     CFRelease(resourcesURL);
-	
     chdir(path);
 	
 	char* currentBundle = strtok(path,"build");
-	
 	char* absoluteDir = new char[strlen(currentBundle)+strlen(relativeDir)+1];
-	
 	strcpy(absoluteDir, currentBundle);
 	strcat(absoluteDir, relativeDir);
 	

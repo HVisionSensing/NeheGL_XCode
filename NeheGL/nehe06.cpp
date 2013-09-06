@@ -8,6 +8,8 @@
 
 #include "nehe06.h"
 
+const char* NEHE06::TITLE = "NEHE06";
+
 GLfloat NEHE06::sleepTime = 0.0f;
 int NEHE06::frameCounter = 0;
 int NEHE06::currentTime = 0;

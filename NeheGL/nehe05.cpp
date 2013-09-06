@@ -8,6 +8,8 @@
 
 #include "nehe05.h"
 
+const char* NEHE05::TITLE = "NEHE05";
+
 GLfloat NEHE05::rtri = 0.0f;
 GLfloat NEHE05::rquad = 0.0f;
 
