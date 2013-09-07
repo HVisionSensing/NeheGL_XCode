@@ -1,13 +1,13 @@
 //
-//  nehe07.h
+//  nehe08.h
 //  NeheGL
 //
-//  Created by Andong Li on 9/5/13.
+//  Created by Andong Li on 9/6/13.
 //  Copyright (c) 2013 Andong Li. All rights reserved.
 //
 
-#ifndef __NeheGL__nehe07__
-#define __NeheGL__nehe07__
+#ifndef __NeheGL__nehe08__
+#define __NeheGL__nehe08__
 
 #include <OpenGL/gl.h>
 #include <OpenGL/glu.h>
@@ -22,7 +22,7 @@
 #include <cmath>
 #include <ctime>
 
-class NEHE07{
+class NEHE08{
 public:
 	
 	static GLvoid ReSizeGLScene(GLsizei width, GLsizei height);
@@ -56,8 +56,10 @@ private:
 	static GLuint  filter;	// Which Filter To Use
 	
 	static bool light;
+	static bool blend;
 	static bool lp;
 	static bool fp;
+	static bool bp;
 	
 	static GLfloat LightAmbient[];	// Ambient Light Values
 	static GLfloat LightDiffuse[];	// Diffuse Light Values
@@ -68,4 +70,5 @@ private:
 	
 };
 
-#endif /* defined(__NeheGL__nehe07__) */
+
+#endif /* defined(__NeheGL__nehe08__) */
