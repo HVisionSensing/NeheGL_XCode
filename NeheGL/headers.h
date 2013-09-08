@@ -19,5 +19,6 @@
 #include "nehe07.h"
 #include "nehe08.h"
 #include "nehe09.h"
+#include "nehe10.h"
 
 #endif
