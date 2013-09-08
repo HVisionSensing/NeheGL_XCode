@@ -118,6 +118,23 @@
 			name = utils;
 			sourceTree = "<group>";
 		};
+		9B8D57F117DC6FAC00A5827B /* nehe06-10 */ = {
+			isa = PBXGroup;
+			children = (
+				9B38EF7117D8004D008602CE /* nehe06.cpp */,
+				9B2D5FF917D9319F00C2577F /* nehe07.cpp */,
+				9B38EF7217D8004D008602CE /* nehe06.h */,
+				9B2D5FFA17D9319F00C2577F /* nehe07.h */,
+				9BBE177F17DAE9D50041B4CA /* nehe08.cpp */,
+				9BBE178017DAE9D50041B4CA /* nehe08.h */,
+				9BBE178217DAF7A40041B4CA /* nehe09.cpp */,
+				9BBE178317DAF7A40041B4CA /* nehe09.h */,
+				9B8D57EE17DBE98500A5827B /* nehe10.cpp */,
+				9B8D57EF17DBE98500A5827B /* nehe10.h */,
+			);
+			name = "nehe06-10";
+			sourceTree = "<group>";
+		};
 		9BF9A74A17BCBCDD00396775 = {
 			isa = PBXGroup;
 			children = (
@@ -141,24 +158,15 @@
 		9BF9A75517BCBCDD00396775 /* NeheGL */ = {
 			isa = PBXGroup;
 			children = (
-				9BBE178517DB0C300041B4CA /* model */,
 				9B38EF8317D86037008602CE /* img */,
 				9B38EF7E17D85E4A008602CE /* lib */,
+				9BBE178517DB0C300041B4CA /* model */,
 				9BF9A75817BCBCDD00396775 /* NeheGL.1 */,
 				9BFD960E17CF1DAE0036FDAB /* main.cpp */,
-				9B38EF7117D8004D008602CE /* nehe06.cpp */,
-				9B2D5FF917D9319F00C2577F /* nehe07.cpp */,
 				9BFD961117CF45270036FDAB /* headers.h */,
-				9B38EF7217D8004D008602CE /* nehe06.h */,
-				9B2D5FFA17D9319F00C2577F /* nehe07.h */,
 				9B38EF7C17D8006C008602CE /* nehe01-05 */,
+				9B8D57F117DC6FAC00A5827B /* nehe06-10 */,
 				9B38EF7F17D85E67008602CE /* utils */,
-				9BBE177F17DAE9D50041B4CA /* nehe08.cpp */,
-				9BBE178017DAE9D50041B4CA /* nehe08.h */,
-				9BBE178217DAF7A40041B4CA /* nehe09.cpp */,
-				9BBE178317DAF7A40041B4CA /* nehe09.h */,
-				9B8D57EE17DBE98500A5827B /* nehe10.cpp */,
-				9B8D57EF17DBE98500A5827B /* nehe10.h */,
 			);
 			path = NeheGL;
 			sourceTree = "<group>";

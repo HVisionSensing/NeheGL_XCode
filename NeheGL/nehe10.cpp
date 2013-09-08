@@ -220,6 +220,7 @@ GLvoid NEHE10::DrawGLScene(){
 	
 	//draw FPS text
 	glDisable(GL_TEXTURE_2D);
+	glDisable(GL_DEPTH_TEST);
 	glLoadIdentity ();
 	glTranslatef(0.0f,0.0f,-1.0f);
 	glColor3f(0.8f,0.8f,0.8f);//set text color
@@ -227,6 +228,7 @@ GLvoid NEHE10::DrawGLScene(){
 	computeFPS();
 	Utils::drawText(-0.54f,-0.4f, GLUT_BITMAP_HELVETICA_12, FPSstr);
 	glEnable(GL_TEXTURE_2D);
+	glEnable(GL_DEPTH_TEST);
 	
 	glutSwapBuffers();
 	
