@@ -21,6 +21,8 @@
 		9B8D57F017DBE98500A5827B /* nehe10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D57EE17DBE98500A5827B /* nehe10.cpp */; };
 		9BBE178117DAE9D50041B4CA /* nehe08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE177F17DAE9D50041B4CA /* nehe08.cpp */; };
 		9BBE178417DAF7A40041B4CA /* nehe09.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE178217DAF7A40041B4CA /* nehe09.cpp */; };
+		9BEE507E17E0D9AC00124603 /* nehe11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE507C17E0D9AC00124603 /* nehe11.cpp */; };
+		9BEE508117E124E600124603 /* nehe12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE507F17E124E600124603 /* nehe12.cpp */; };
 		9BF9A75917BCBCDD00396775 /* NeheGL.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9BF9A75817BCBCDD00396775 /* NeheGL.1 */; };
 		9BF9A76217BCBCF900396775 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9A76117BCBCF900396775 /* OpenGL.framework */; };
 		9BFD961017CF1DAE0036FDAB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD960E17CF1DAE0036FDAB /* main.cpp */; };
@@ -68,6 +70,10 @@
 		9BBE178217DAF7A40041B4CA /* nehe09.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe09.cpp; sourceTree = "<group>"; };
 		9BBE178317DAF7A40041B4CA /* nehe09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe09.h; sourceTree = "<group>"; };
 		9BBE178517DB0C300041B4CA /* model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model; sourceTree = "<group>"; };
+		9BEE507C17E0D9AC00124603 /* nehe11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe11.cpp; sourceTree = "<group>"; };
+		9BEE507D17E0D9AC00124603 /* nehe11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe11.h; sourceTree = "<group>"; };
+		9BEE507F17E124E600124603 /* nehe12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe12.cpp; sourceTree = "<group>"; };
+		9BEE508017E124E600124603 /* nehe12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe12.h; sourceTree = "<group>"; };
 		9BF9A75317BCBCDD00396775 /* NeheGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NeheGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF9A75817BCBCDD00396775 /* NeheGL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NeheGL.1; sourceTree = "<group>"; };
 		9BF9A75F17BCBCF400396775 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
@@ -167,6 +173,10 @@
 				9B38EF7C17D8006C008602CE /* nehe01-05 */,
 				9B8D57F117DC6FAC00A5827B /* nehe06-10 */,
 				9B38EF7F17D85E67008602CE /* utils */,
+				9BEE507C17E0D9AC00124603 /* nehe11.cpp */,
+				9BEE507D17E0D9AC00124603 /* nehe11.h */,
+				9BEE507F17E124E600124603 /* nehe12.cpp */,
+				9BEE508017E124E600124603 /* nehe12.h */,
 			);
 			path = NeheGL;
 			sourceTree = "<group>";
@@ -234,6 +244,8 @@
 				9BBE178117DAE9D50041B4CA /* nehe08.cpp in Sources */,
 				9BBE178417DAF7A40041B4CA /* nehe09.cpp in Sources */,
 				9B8D57F017DBE98500A5827B /* nehe10.cpp in Sources */,
+				9BEE507E17E0D9AC00124603 /* nehe11.cpp in Sources */,
+				9BEE508117E124E600124603 /* nehe12.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
