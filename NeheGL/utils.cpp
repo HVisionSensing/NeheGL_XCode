@@ -20,6 +20,15 @@ void Utils::drawText(float x, float y, void* font, const char* str) {
 	
 }
 
+void Utils::strokeText(void *font, const char *str){
+	
+	size_t len = strlen(str);
+	
+    for (int i = 0; i < len; i++){
+        glutStrokeCharacter(font, str[i]);
+    }
+}
+
 /*
  you should change build directory to your current project directory in xcode
  preference setting

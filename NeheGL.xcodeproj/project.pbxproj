@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B247B6A17E2620C003991A4 /* nehe13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B247B6817E2620C003991A4 /* nehe13.cpp */; };
+		9B247B6F17E26694003991A4 /* nehe14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B247B6D17E26694003991A4 /* nehe14.cpp */; };
 		9B2D5FFB17D9319F00C2577F /* nehe07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D5FF917D9319F00C2577F /* nehe07.cpp */; };
 		9B38EF7517D8004D008602CE /* nehe01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B38EF6717D8004D008602CE /* nehe01.cpp */; };
 		9B38EF7617D8004D008602CE /* nehe02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B38EF6917D8004D008602CE /* nehe02.cpp */; };
@@ -45,6 +46,9 @@
 /* Begin PBXFileReference section */
 		9B247B6817E2620C003991A4 /* nehe13.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe13.cpp; sourceTree = "<group>"; };
 		9B247B6917E2620C003991A4 /* nehe13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe13.h; sourceTree = "<group>"; };
+		9B247B6C17E26630003991A4 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		9B247B6D17E26694003991A4 /* nehe14.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe14.cpp; sourceTree = "<group>"; };
+		9B247B6E17E26694003991A4 /* nehe14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe14.h; sourceTree = "<group>"; };
 		9B2D5FF917D9319F00C2577F /* nehe07.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe07.cpp; sourceTree = "<group>"; };
 		9B2D5FFA17D9319F00C2577F /* nehe07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe07.h; sourceTree = "<group>"; };
 		9B38EF6717D8004D008602CE /* nehe01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe01.cpp; sourceTree = "<group>"; };
@@ -64,7 +68,6 @@
 		9B38EF7D17D85DDC008602CE /* SOIL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOIL.h; sourceTree = "<group>"; };
 		9B38EF7E17D85E4A008602CE /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
 		9B38EF8017D85E9A008602CE /* libSOIL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSOIL.a; path = NeheGL/lib/libSOIL.a; sourceTree = "<group>"; };
-		9B38EF8317D86037008602CE /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
 		9B38EF8417D8616E008602CE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		9B8D57EE17DBE98500A5827B /* nehe10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe10.cpp; sourceTree = "<group>"; };
 		9B8D57EF17DBE98500A5827B /* nehe10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe10.h; sourceTree = "<group>"; };
@@ -167,7 +170,7 @@
 		9BF9A75517BCBCDD00396775 /* NeheGL */ = {
 			isa = PBXGroup;
 			children = (
-				9B38EF8317D86037008602CE /* img */,
+				9B247B6C17E26630003991A4 /* img */,
 				9B38EF7E17D85E4A008602CE /* lib */,
 				9BBE178517DB0C300041B4CA /* model */,
 				9BF9A75817BCBCDD00396775 /* NeheGL.1 */,
@@ -182,6 +185,8 @@
 				9BEE508017E124E600124603 /* nehe12.h */,
 				9B247B6817E2620C003991A4 /* nehe13.cpp */,
 				9B247B6917E2620C003991A4 /* nehe13.h */,
+				9B247B6D17E26694003991A4 /* nehe14.cpp */,
+				9B247B6E17E26694003991A4 /* nehe14.h */,
 			);
 			path = NeheGL;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				9BEE507E17E0D9AC00124603 /* nehe11.cpp in Sources */,
 				9BEE508117E124E600124603 /* nehe12.cpp in Sources */,
 				9B247B6A17E2620C003991A4 /* nehe13.cpp in Sources */,
+				9B247B6F17E26694003991A4 /* nehe14.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
