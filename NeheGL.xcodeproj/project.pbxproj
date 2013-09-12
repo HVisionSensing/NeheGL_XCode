@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B247B6A17E2620C003991A4 /* nehe13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B247B6817E2620C003991A4 /* nehe13.cpp */; };
 		9B2D5FFB17D9319F00C2577F /* nehe07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D5FF917D9319F00C2577F /* nehe07.cpp */; };
 		9B38EF7517D8004D008602CE /* nehe01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B38EF6717D8004D008602CE /* nehe01.cpp */; };
 		9B38EF7617D8004D008602CE /* nehe02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B38EF6917D8004D008602CE /* nehe02.cpp */; };
@@ -42,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B247B6817E2620C003991A4 /* nehe13.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe13.cpp; sourceTree = "<group>"; };
+		9B247B6917E2620C003991A4 /* nehe13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe13.h; sourceTree = "<group>"; };
 		9B2D5FF917D9319F00C2577F /* nehe07.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe07.cpp; sourceTree = "<group>"; };
 		9B2D5FFA17D9319F00C2577F /* nehe07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe07.h; sourceTree = "<group>"; };
 		9B38EF6717D8004D008602CE /* nehe01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe01.cpp; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 				9BEE507D17E0D9AC00124603 /* nehe11.h */,
 				9BEE507F17E124E600124603 /* nehe12.cpp */,
 				9BEE508017E124E600124603 /* nehe12.h */,
+				9B247B6817E2620C003991A4 /* nehe13.cpp */,
+				9B247B6917E2620C003991A4 /* nehe13.h */,
 			);
 			path = NeheGL;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 				9B8D57F017DBE98500A5827B /* nehe10.cpp in Sources */,
 				9BEE507E17E0D9AC00124603 /* nehe11.cpp in Sources */,
 				9BEE508117E124E600124603 /* nehe12.cpp in Sources */,
+				9B247B6A17E2620C003991A4 /* nehe13.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
