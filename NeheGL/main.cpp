@@ -10,7 +10,7 @@
 #include "headers.h"
 
 //just change here to change renderer
-#define RENDERER NEHE14
+#define RENDERER NEHE16
 
 int main(int argc,  char * argv[]){
 	
@@ -26,10 +26,10 @@ int main(int argc,  char * argv[]){
 	glutReshapeFunc(RENDERER::ReSizeGLScene);
 	glutTimerFunc(0, RENDERER::UpdateScene, 0);
 	//handle keyboard actions
-	//glutKeyboardFunc(RENDERER::KeyboardFuction);
-	//glutKeyboardUpFunc(RENDERER::KeyboardUpFuction);
-	//glutSpecialFunc(RENDERER::KeySpecialFuction);
-	//glutSpecialUpFunc(RENDERER::KeySpecialUpFuction);
+	glutKeyboardFunc(RENDERER::KeyboardFuction);
+	glutKeyboardUpFunc(RENDERER::KeyboardUpFuction);
+	glutSpecialFunc(RENDERER::KeySpecialFuction);
+	glutSpecialUpFunc(RENDERER::KeySpecialUpFuction);
 	
     glutMainLoop();
 	
