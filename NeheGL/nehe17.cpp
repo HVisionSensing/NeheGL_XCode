@@ -206,7 +206,6 @@ GLvoid NEHE17::DrawGLScene(){
 	
 	cnt1 += 0.01f;
 	cnt2 += 0.0081f;
-	
 }
 
 /*
