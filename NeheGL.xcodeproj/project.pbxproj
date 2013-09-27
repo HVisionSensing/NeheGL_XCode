@@ -28,6 +28,7 @@
 		9BBE178417DAF7A40041B4CA /* nehe09.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE178217DAF7A40041B4CA /* nehe09.cpp */; };
 		9BEE507E17E0D9AC00124603 /* nehe11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE507C17E0D9AC00124603 /* nehe11.cpp */; };
 		9BEE508117E124E600124603 /* nehe12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE507F17E124E600124603 /* nehe12.cpp */; };
+		9BF0A39C17F4E7DD00F2299D /* nehe19.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0A39A17F4E7DD00F2299D /* nehe19.cpp */; };
 		9BF9A75917BCBCDD00396775 /* NeheGL.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9BF9A75817BCBCDD00396775 /* NeheGL.1 */; };
 		9BF9A76217BCBCF900396775 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9A76117BCBCF900396775 /* OpenGL.framework */; };
 		9BFD961017CF1DAE0036FDAB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD960E17CF1DAE0036FDAB /* main.cpp */; };
@@ -89,6 +90,8 @@
 		9BEE507D17E0D9AC00124603 /* nehe11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe11.h; sourceTree = "<group>"; };
 		9BEE507F17E124E600124603 /* nehe12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe12.cpp; sourceTree = "<group>"; };
 		9BEE508017E124E600124603 /* nehe12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe12.h; sourceTree = "<group>"; };
+		9BF0A39A17F4E7DD00F2299D /* nehe19.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe19.cpp; sourceTree = "<group>"; };
+		9BF0A39B17F4E7DD00F2299D /* nehe19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe19.h; sourceTree = "<group>"; };
 		9BF9A75317BCBCDD00396775 /* NeheGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NeheGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF9A75817BCBCDD00396775 /* NeheGL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NeheGL.1; sourceTree = "<group>"; };
 		9BF9A75F17BCBCF400396775 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
@@ -210,6 +213,8 @@
 				9B6E171E17E6B6E4008FB146 /* nehe17.h */,
 				9B6E172017E6E82C008FB146 /* nehe18.cpp */,
 				9B6E172117E6E82C008FB146 /* nehe18.h */,
+				9BF0A39A17F4E7DD00F2299D /* nehe19.cpp */,
+				9BF0A39B17F4E7DD00F2299D /* nehe19.h */,
 			);
 			path = NeheGL;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				9B38EF7617D8004D008602CE /* nehe02.cpp in Sources */,
 				9B38EF7717D8004D008602CE /* nehe03.cpp in Sources */,
 				9B38EF7817D8004D008602CE /* nehe04.cpp in Sources */,
+				9BF0A39C17F4E7DD00F2299D /* nehe19.cpp in Sources */,
 				9B38EF7917D8004D008602CE /* nehe05.cpp in Sources */,
 				9B38EF7A17D8004D008602CE /* nehe06.cpp in Sources */,
 				9B38EF7B17D8004D008602CE /* utils.cpp in Sources */,
