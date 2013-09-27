@@ -216,22 +216,22 @@ GLvoid NEHE19::DrawGLScene(){
 	if (!keys[' ']){
 		sp=false;
 	}
-	if (keys[GLUT_KEY_PAGE_UP]){
+	if (specialKeys[GLUT_KEY_PAGE_UP]){
 		zoom += 0.1f;
 	}
-	if (keys[GLUT_KEY_PAGE_DOWN]){
+	if (specialKeys[GLUT_KEY_PAGE_DOWN]){
 		zoom -= 0.1f;
 	}
-	if (keys[GLUT_KEY_UP] && (yspeed < 200)){
+	if (specialKeys[GLUT_KEY_UP] && (yspeed < 200)){
 		yspeed += 1.0f;
 	}
-	if (keys[GLUT_KEY_DOWN] && (yspeed > -200)){
+	if (specialKeys[GLUT_KEY_DOWN] && (yspeed > -200)){
 		yspeed -= 1.0f;
 	}
-	if (keys[GLUT_KEY_RIGHT] && (xspeed < 200)){
+	if (specialKeys[GLUT_KEY_RIGHT] && (xspeed < 200)){
 		xspeed += 1.0f;
 	}
-	if (keys[GLUT_KEY_LEFT] && (xspeed > -200)){
+	if (specialKeys[GLUT_KEY_LEFT] && (xspeed > -200)){
 		xspeed -= 1.0f;
 	}
 	if(keys['\r'] && !rp){
