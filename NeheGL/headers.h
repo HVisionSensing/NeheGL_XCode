@@ -29,5 +29,7 @@
 #include "nehe18.h"
 #include "nehe19.h"
 #include "nehe20.h"
+#include "nehe21.h"
+#include "nehe22.h"
 
 #endif
