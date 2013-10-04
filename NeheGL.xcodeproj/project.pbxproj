@@ -86,7 +86,6 @@
 		9B6E172117E6E82C008FB146 /* nehe18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe18.h; sourceTree = "<group>"; };
 		9B7E8A0017F90AE00046AF78 /* nehe22.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe22.cpp; sourceTree = "<group>"; };
 		9B7E8A0117F90AE00046AF78 /* nehe22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe22.h; sourceTree = "<group>"; };
-		9B7E8A0417F93CC80046AF78 /* glext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glext.h; sourceTree = "<group>"; };
 		9B8D57EE17DBE98500A5827B /* nehe10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe10.cpp; sourceTree = "<group>"; };
 		9B8D57EF17DBE98500A5827B /* nehe10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe10.h; sourceTree = "<group>"; };
 		9B8F383F17E673D600E922EC /* nehe16.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe16.cpp; sourceTree = "<group>"; };
@@ -148,7 +147,6 @@
 				9B38EF7D17D85DDC008602CE /* SOIL.h */,
 				9B38EF7317D8004D008602CE /* utils.cpp */,
 				9B38EF7417D8004D008602CE /* utils.h */,
-				9B7E8A0417F93CC80046AF78 /* glext.h */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -270,7 +268,7 @@
 		9BF9A74B17BCBCDD00396775 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Andong Li";
 			};
 			buildConfigurationList = 9BF9A74E17BCBCDD00396775 /* Build configuration list for PBXProject "NeheGL" */;
@@ -328,7 +326,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -361,7 +358,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;

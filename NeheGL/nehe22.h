@@ -11,11 +11,11 @@
 
 #include <OpenGL/gl.h>
 #include <OpenGL/glu.h>
+#include <OpenGL/glext.h>
 #include <GLUT/glut.h>
 
 #include "utils.h"
 #include "SOIL.h"
-#include "glext.h"	// Header File For Multitexturing
 
 #include <iostream>
 #include <stdlib.h>
@@ -58,15 +58,6 @@ private:
 	static bool useMultitexture;	// Use It If It Is Supported?
 	static GLint maxTexelUnits;	// Number Of Texel-Pipelines. This Is At Least 1.
 	
-#ifdef _WIN32
-	static PFNGLMULTITEXCOORD1FARBPROC glMultiTexCoord1fARB;
-	static PFNGLMULTITEXCOORD2FARBPROC glMultiTexCoord2fARB;
-	static PFNGLMULTITEXCOORD3FARBPROC glMultiTexCoord3fARB;
-	static PFNGLMULTITEXCOORD4FARBPROC glMultiTexCoord4fARB;
-	static PFNGLACTIVETEXTUREARBPROC   glActiveTextureARB;
-	static PFNGLCLIENTACTIVETEXTUREARBPROC glClientActiveTextureARB;
-#endif
-	
 	static GLuint filter;	// Which Filter To Use
 	static GLuint texture[3];	// Storage For 3 Textures
 	static GLuint bump[3];	// Our Bumpmappings
@@ -78,10 +69,26 @@ private:
 	static GLfloat LightPosition[];	// Position Is Somewhat In Front Of Screen
 	static GLfloat Gray[];
 	static GLfloat data[];
+	static GLfloat xrot;
+	static GLfloat yrot;
+	static GLfloat z;
+	static GLfloat xspeed;
+	static GLfloat yspeed;
+	static bool emboss;
+	static bool bumps;
 	
 	static bool isInString(char *string, const char *search);
 	static bool initMultitexture();
 	static void initLights();
+	static void doCube();
+	static void doLogo();
+	
+	static void VMatMult(GLfloat *M, GLfloat *v);	// helper function compute v = v*M
+	static void SetUpBumps(GLfloat *n, GLfloat *c, GLfloat *l, GLfloat *s, GLfloat *t);
+	
+	static bool doMesh1TexelUnits();	//	doing the bump mapping without multitexturing
+	static bool doMesh2TexelUnits();	// with multitexturing support
+	static bool doMeshNoBumps();
 	
 	static bool keys[256];
 	static bool specialKeys[256];
