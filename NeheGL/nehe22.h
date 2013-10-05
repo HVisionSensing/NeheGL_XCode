@@ -94,6 +94,4 @@ private:
 	static bool specialKeys[256];
 };
 
-
-
 #endif /* defined(__NeheGL__nehe22__) */
