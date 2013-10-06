@@ -837,7 +837,7 @@ GLvoid NEHE22::DrawGLScene(){
 	if (lightingOn) glDisable(GL_LIGHTING);
 	glGetIntegerv(GL_MATRIX_MODE, &matrixMode);  /* matrix mode? */
 	glDisable(GL_TEXTURE_2D);
-	glDisable(GL_DEPTH_TEST);;
+	glDisable(GL_DEPTH_TEST);
 	glMatrixMode(GL_PROJECTION);
 	glPushMatrix();
 	glLoadIdentity();
