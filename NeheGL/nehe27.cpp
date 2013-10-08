@@ -509,12 +509,12 @@ GLvoid NEHE27::DrawGLScene(){
 	if (keys['q']) SpherePos[2] -= 0.05f;	// 'Q' Move Ball Away From Viewer
 	
 	// Adjust Object's Position
-	if (keys['h']) ObjPos[0] += 0.05f;			// 'H' Move Object Right
-	if (keys['f']) ObjPos[0] -= 0.05f;			// 'F' Move Object Left
-	if (keys['t']) ObjPos[1] += 0.05f;			// 'T' Move Object Up
-	if (keys['g']) ObjPos[1] -= 0.05f;			// 'G' Move Object Down
-	if (keys['r']) ObjPos[2] += 0.05f;			// 'R' Move Object Toward Viewer
-	if (keys['y']) ObjPos[2] -= 0.05f;			// 'Y' Move Object Away From Viewer
+	if (keys['h']) ObjPos[0] += 0.05f;	// 'H' Move Object Right
+	if (keys['f']) ObjPos[0] -= 0.05f;	// 'F' Move Object Left
+	if (keys['t']) ObjPos[1] += 0.05f;	// 'T' Move Object Up
+	if (keys['g']) ObjPos[1] -= 0.05f;	// 'G' Move Object Down
+	if (keys['r']) ObjPos[2] += 0.05f;	// 'R' Move Object Toward Viewer
+	if (keys['y']) ObjPos[2] -= 0.05f;	// 'Y' Move Object Away From Viewer
 	
 }
 
