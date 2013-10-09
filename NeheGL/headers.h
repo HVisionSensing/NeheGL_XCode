@@ -37,5 +37,6 @@
 #include "nehe26.h"
 #include "nehe27.h"
 #include "nehe28.h"
+#include "nehe29.h"
 
 #endif
