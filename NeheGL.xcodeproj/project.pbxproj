@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B098B421807D11000597BDB /* nehe30.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B098B401807D11000597BDB /* nehe30.cpp */; };
 		9B09A5C017F5798C00B56A6C /* nehe20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B09A5BE17F5798C00B56A6C /* nehe20.cpp */; };
 		9B247B6A17E2620C003991A4 /* nehe13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B247B6817E2620C003991A4 /* nehe13.cpp */; };
 		9B247B6F17E26694003991A4 /* nehe14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B247B6D17E26694003991A4 /* nehe14.cpp */; };
@@ -36,6 +37,7 @@
 		9BA282B518022324008BFE56 /* nehe26.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BA282B318022324008BFE56 /* nehe26.cpp */; };
 		9BBE178117DAE9D50041B4CA /* nehe08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE177F17DAE9D50041B4CA /* nehe08.cpp */; };
 		9BBE178417DAF7A40041B4CA /* nehe09.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE178217DAF7A40041B4CA /* nehe09.cpp */; };
+		9BCC6D80180BC5000097C91B /* nehe31.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC6D7E180BC5000097C91B /* nehe31.cpp */; };
 		9BEE507E17E0D9AC00124603 /* nehe11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE507C17E0D9AC00124603 /* nehe11.cpp */; };
 		9BEE508117E124E600124603 /* nehe12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE507F17E124E600124603 /* nehe12.cpp */; };
 		9BF0A39C17F4E7DD00F2299D /* nehe19.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0A39A17F4E7DD00F2299D /* nehe19.cpp */; };
@@ -58,6 +60,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B098B401807D11000597BDB /* nehe30.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe30.cpp; sourceTree = "<group>"; };
+		9B098B411807D11000597BDB /* nehe30.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe30.h; sourceTree = "<group>"; };
 		9B09A5BE17F5798C00B56A6C /* nehe20.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe20.cpp; sourceTree = "<group>"; };
 		9B09A5BF17F5798C00B56A6C /* nehe20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe20.h; sourceTree = "<group>"; };
 		9B247B6817E2620C003991A4 /* nehe13.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe13.cpp; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 		9BBE178217DAF7A40041B4CA /* nehe09.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe09.cpp; sourceTree = "<group>"; };
 		9BBE178317DAF7A40041B4CA /* nehe09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe09.h; sourceTree = "<group>"; };
 		9BBE178517DB0C300041B4CA /* model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model; sourceTree = "<group>"; };
+		9BCC6D7E180BC5000097C91B /* nehe31.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe31.cpp; sourceTree = "<group>"; };
+		9BCC6D7F180BC5000097C91B /* nehe31.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe31.h; sourceTree = "<group>"; };
 		9BEE507C17E0D9AC00124603 /* nehe11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe11.cpp; sourceTree = "<group>"; };
 		9BEE507D17E0D9AC00124603 /* nehe11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nehe11.h; sourceTree = "<group>"; };
 		9BEE507F17E124E600124603 /* nehe12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nehe12.cpp; sourceTree = "<group>"; };
@@ -221,6 +227,23 @@
 			name = "nehe20-25";
 			sourceTree = "<group>";
 		};
+		9BCC6D81180BC5E10097C91B /* nehe26-30 */ = {
+			isa = PBXGroup;
+			children = (
+				9BA282B318022324008BFE56 /* nehe26.cpp */,
+				9BA282B418022324008BFE56 /* nehe26.h */,
+				9B53B14F1802771D0032616F /* nehe27.cpp */,
+				9B53B1501802771D0032616F /* nehe27.h */,
+				9B65E67C1803CBF60078F198 /* nehe28.cpp */,
+				9B65E67D1803CBF60078F198 /* nehe28.h */,
+				9B967364180533DA0081E75B /* nehe29.cpp */,
+				9B967365180533DA0081E75B /* nehe29.h */,
+				9B098B401807D11000597BDB /* nehe30.cpp */,
+				9B098B411807D11000597BDB /* nehe30.h */,
+			);
+			name = "nehe26-30";
+			sourceTree = "<group>";
+		};
 		9BEE0A2917F589EC00D16EF2 /* nehe15-20 */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,14 +296,9 @@
 				9B8F384217E673E500E922EC /* nehe11-15 */,
 				9BEE0A2917F589EC00D16EF2 /* nehe15-20 */,
 				9BA282B618022362008BFE56 /* nehe20-25 */,
-				9BA282B318022324008BFE56 /* nehe26.cpp */,
-				9BA282B418022324008BFE56 /* nehe26.h */,
-				9B53B14F1802771D0032616F /* nehe27.cpp */,
-				9B53B1501802771D0032616F /* nehe27.h */,
-				9B65E67C1803CBF60078F198 /* nehe28.cpp */,
-				9B65E67D1803CBF60078F198 /* nehe28.h */,
-				9B967364180533DA0081E75B /* nehe29.cpp */,
-				9B967365180533DA0081E75B /* nehe29.h */,
+				9BCC6D81180BC5E10097C91B /* nehe26-30 */,
+				9BCC6D7E180BC5000097C91B /* nehe31.cpp */,
+				9BCC6D7F180BC5000097C91B /* nehe31.h */,
 			);
 			path = NeheGL;
 			sourceTree = "<group>";
@@ -361,11 +379,13 @@
 				9B53B1511802771D0032616F /* nehe27.cpp in Sources */,
 				9BEE508117E124E600124603 /* nehe12.cpp in Sources */,
 				9B247B6A17E2620C003991A4 /* nehe13.cpp in Sources */,
+				9B098B421807D11000597BDB /* nehe30.cpp in Sources */,
 				9B247B6F17E26694003991A4 /* nehe14.cpp in Sources */,
 				9B8F384117E673D600E922EC /* nehe16.cpp in Sources */,
 				9B6E171F17E6B6E4008FB146 /* nehe17.cpp in Sources */,
 				9B98D4861800E71100914BAE /* nehe25.cpp in Sources */,
 				9B6E172217E6E82C008FB146 /* nehe18.cpp in Sources */,
+				9BCC6D80180BC5000097C91B /* nehe31.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
