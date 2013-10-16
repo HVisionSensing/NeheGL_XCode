@@ -41,4 +41,6 @@
 #include "nehe30.h"
 #include "nehe31.h"
 
+#include "nehe33.h"
+
 #endif
