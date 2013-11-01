@@ -10,7 +10,7 @@
 #include "headers.h"
 
 //just change here to change renderer
-#define RENDERER NEHE38
+#define RENDERER NEHE39
 
 int main(int argc,  char * argv[]){
 	
